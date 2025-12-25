@@ -1,6 +1,7 @@
-teams_response = requests.get("https://api.pbpstats.com/get-teams/wnba")
-teams = teams_response.json()
-teams["teams"]
+# use this code to get the team ids for WNBA teams from pbpstats API
+# teams_response = requests.get("https://api.pbpstats.com/get-teams/wnba")
+# teams = teams_response.json()
+# teams["teams"]
 
 [{'id': '1611661330', 'text': 'ATL'},
  {'id': '1611661329', 'text': 'CHI'},
