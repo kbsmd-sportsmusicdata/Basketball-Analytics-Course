@@ -1,0 +1,331 @@
+#!/usr/bin/env python3
+"""
+Fetch on/off data for 3 undervalued players from pbpstats API.
+
+This script pulls team performance metrics when each player is ON vs OFF the court
+to demonstrate winning impact beyond box score stats.
+"""
+
+import requests
+import pandas as pd
+import time
+from typing import Dict, List
+
+# Player configuration
+PLAYERS = {
+    "Courtney Williams": {
+        "player_id": "1628886",
+        "team_id": "1611661324",  # Minnesota Lynx
+        "team_name": "Minnesota Lynx",
+        "season": "2024"
+    },
+    "Naz Hillmon": {
+        "player_id": "1631098",
+        "team_id": "1611661330",  # Atlanta Dream
+        "team_name": "Atlanta Dream",
+        "season": "2024"
+    },
+    "Emily Engstler": {
+        "player_id": "1630234",
+        "team_id": "1611661322",  # Washington Mystics
+        "team_name": "Washington Mystics",
+        "season": "2024"
+    }
+}
+
+# Key stats to pull - focused on winning impact
+IMPACT_STATS = [
+    # Core Ratings
+    "PtsPer100Poss",              # Offensive Rating
+    "PtsPer100PossOpponent",      # Defensive Rating (opponent points)
+    "Pace",                        # Game pace
+
+    # Shooting Efficiency (Offense)
+    "EfgPct",                      # Team eFG%
+    "TsPct",                       # Team TS%
+    "Fg3Pct",                      # Team 3PT%
+    "Fg2Pct",                      # Team 2PT%
+    "ShotQualityAvg",              # Shot quality (expected)
+
+    # Shooting Defense
+    "EfgPctOpponent",              # Opponent eFG%
+    "Fg3PctOpponent",              # Opponent 3PT%
+    "Fg2PctOpponent",              # Opponent 2PT%
+    "OpponentShotQualityAvg",      # Opponent shot quality
+
+    # Rebounding
+    "OffReboundPct",               # Offensive rebound %
+    "DefReboundPct",               # Defensive rebound %
+
+    # Playmaking & Ball Security
+    "AssistsPer100Poss",           # Assists per 100 poss
+    "TurnoversPer100Poss",         # Turnovers per 100 poss
+
+    # Advanced Shot Location (Optional - can remove if too much data)
+    "AtRimFrequency",              # At-rim attempt rate
+    "AtRimAccuracy",               # At-rim FG%
+    "FG3APct",                     # 3-point attempt rate
+]
+
+
+def fetch_on_off_data(player_name: str, player_info: Dict) -> Dict:
+    """
+    Fetch on/off splits for a player.
+
+    Args:
+        player_name: Player's name
+        player_info: Dictionary with player_id, team_id, team_name, season
+
+    Returns:
+        Dictionary with on/off data
+    """
+    url = "https://api.pbpstats.com/get-on-off-splits/wnba/player"
+
+    params = {
+        "Season": player_info["season"],
+        "SeasonType": "Regular Season",
+        "TeamId": player_info["team_id"],
+        "PlayerId": player_info["player_id"]
+    }
+
+    try:
+        print(f"  Fetching on/off data for {player_name}...")
+
+        response = requests.get(url, params=params, timeout=15)
+        response.raise_for_status()
+
+        data = response.json()
+
+        # Extract ON and OFF splits
+        on_court_stats = {}
+        off_court_stats = {}
+
+        # The API returns splits with "OnCourt" and "OffCourt" keys
+        # Structure: data["multi_row_table_data"][0] for OnCourt, [1] for OffCourt
+
+        if "multi_row_table_data" in data and len(data["multi_row_table_data"]) >= 2:
+            on_data = data["multi_row_table_data"][0]
+            off_data = data["multi_row_table_data"][1]
+
+            # Extract key stats
+            for stat in IMPACT_STATS:
+                on_court_stats[stat] = on_data.get(stat, None)
+                off_court_stats[stat] = off_data.get(stat, None)
+
+            # Calculate Net Rating (OffRtg - DefRtg)
+            on_off_rtg = on_court_stats.get("PtsPer100Poss")
+            on_def_rtg = on_court_stats.get("PtsPer100PossOpponent")
+            off_off_rtg = off_court_stats.get("PtsPer100Poss")
+            off_def_rtg = off_court_stats.get("PtsPer100PossOpponent")
+
+            if all(x is not None for x in [on_off_rtg, on_def_rtg, off_off_rtg, off_def_rtg]):
+                on_court_stats["NetRating"] = on_off_rtg - on_def_rtg
+                off_court_stats["NetRating"] = off_off_rtg - off_def_rtg
+                diff = on_court_stats["NetRating"] - off_court_stats["NetRating"]
+
+                print(f"    ✓ On Court Net Rating: {on_court_stats['NetRating']:.1f}")
+                print(f"    ✓ Off Court Net Rating: {off_court_stats['NetRating']:.1f}")
+                print(f"    ✓ Differential: {diff:+.1f} (team is {abs(diff):.1f} pts/100 {'better' if diff > 0 else 'worse'} with {player_name.split()[0]} on court)")
+
+            # Add metadata
+            on_court_stats["minutes"] = on_data.get("Minutes", 0)
+            off_court_stats["minutes"] = off_data.get("Minutes", 0)
+
+            print(f"    ✓ Sample: {on_court_stats['minutes']:.0f} min ON, {off_court_stats['minutes']:.0f} min OFF")
+
+        else:
+            print(f"    ✗ Unexpected data structure for {player_name}")
+            return None
+
+        result = {
+            "player_name": player_name,
+            "team": player_info["team_name"],
+            "season": player_info["season"],
+            "on_court": on_court_stats,
+            "off_court": off_court_stats
+        }
+
+        return result
+
+    except requests.exceptions.RequestException as e:
+        print(f"    ✗ Error fetching data for {player_name}: {e}")
+        return None
+    except (KeyError, IndexError) as e:
+        print(f"    ✗ Error parsing data for {player_name}: {e}")
+        return None
+
+
+def create_summary_table(all_data: List[Dict]) -> pd.DataFrame:
+    """
+    Create a summary table with key on/off metrics.
+
+    Args:
+        all_data: List of player on/off data dictionaries
+
+    Returns:
+        DataFrame with summary metrics
+    """
+    summary_rows = []
+
+    for player_data in all_data:
+        if player_data is None:
+            continue
+
+        on_stats = player_data["on_court"]
+        off_stats = player_data["off_court"]
+
+        # Calculate differentials
+        on_net = on_stats.get("NetRating", 0)
+        off_net = off_stats.get("NetRating", 0)
+        net_diff = on_net - off_net
+
+        on_ortg = on_stats.get("PtsPer100Poss", 0)
+        off_ortg = off_stats.get("PtsPer100Poss", 0)
+        ortg_diff = on_ortg - off_ortg
+
+        on_drtg = on_stats.get("PtsPer100PossOpponent", 0)
+        off_drtg = off_stats.get("PtsPer100PossOpponent", 0)
+        drtg_diff = on_drtg - off_drtg  # Lower is better, so negative diff = player improves defense
+
+        row = {
+            "Player": player_data["player_name"],
+            "Team": player_data["team"],
+            "Minutes_ON": on_stats.get("minutes", 0),
+            "Minutes_OFF": off_stats.get("minutes", 0),
+            "Net_Rating_ON": on_net,
+            "Net_Rating_OFF": off_net,
+            "Net_Rating_DIFF": net_diff,
+            "OffRtg_ON": on_ortg,
+            "OffRtg_OFF": off_ortg,
+            "OffRtg_DIFF": ortg_diff,
+            "DefRtg_ON": on_drtg,
+            "DefRtg_OFF": off_drtg,
+            "DefRtg_DIFF": drtg_diff,
+            "eFG_Pct_ON": on_stats.get("EfgPct", 0),
+            "eFG_Pct_OFF": off_stats.get("EfgPct", 0),
+            "Opp_eFG_Pct_ON": on_stats.get("EfgPctOpponent", 0),
+            "Opp_eFG_Pct_OFF": off_stats.get("EfgPctOpponent", 0),
+        }
+
+        summary_rows.append(row)
+
+    return pd.DataFrame(summary_rows)
+
+
+def create_detailed_export(all_data: List[Dict]) -> pd.DataFrame:
+    """
+    Create detailed export with all stats.
+
+    Args:
+        all_data: List of player on/off data dictionaries
+
+    Returns:
+        DataFrame with all metrics in wide format
+    """
+    detailed_rows = []
+
+    for player_data in all_data:
+        if player_data is None:
+            continue
+
+        # Create row with ON stats
+        on_row = {
+            "player_name": player_data["player_name"],
+            "team": player_data["team"],
+            "season": player_data["season"],
+            "split": "ON_COURT"
+        }
+        on_row.update(player_data["on_court"])
+        detailed_rows.append(on_row)
+
+        # Create row with OFF stats
+        off_row = {
+            "player_name": player_data["player_name"],
+            "team": player_data["team"],
+            "season": player_data["season"],
+            "split": "OFF_COURT"
+        }
+        off_row.update(player_data["off_court"])
+        detailed_rows.append(off_row)
+
+    return pd.DataFrame(detailed_rows)
+
+
+def main():
+    """Main execution function."""
+
+    print("\n" + "=" * 80)
+    print("PBPSTATS ON/OFF DATA EXTRACTION")
+    print("=" * 80)
+    print("\nFetching winning impact metrics for 3 undervalued players:")
+    print("  • Courtney Williams (Minnesota Lynx)")
+    print("  • Naz Hillmon (Atlanta Dream)")
+    print("  • Emily Engstler (Washington Mystics)")
+    print("\n" + "=" * 80)
+
+    all_data = []
+
+    for player_name, player_info in PLAYERS.items():
+        player_data = fetch_on_off_data(player_name, player_info)
+        if player_data:
+            all_data.append(player_data)
+        time.sleep(1)  # Be nice to API
+        print()
+
+    if not all_data:
+        print("\n✗ No data fetched. Check API access or player IDs.")
+        return
+
+    print("=" * 80)
+    print("CREATING SUMMARY TABLES")
+    print("=" * 80)
+
+    # Create summary table
+    summary_df = create_summary_table(all_data)
+    summary_file = "/home/claude/on_off_summary.csv"
+    summary_df.to_csv(summary_file, index=False)
+    print(f"\n✓ Summary table saved to: {summary_file}")
+    print("\nSummary Preview:")
+    print(summary_df[['Player', 'Net_Rating_ON', 'Net_Rating_OFF', 'Net_Rating_DIFF']].to_string(index=False))
+
+    # Create detailed export
+    detailed_df = create_detailed_export(all_data)
+    detailed_file = "/home/claude/on_off_detailed.csv"
+    detailed_df.to_csv(detailed_file, index=False)
+    print(f"\n✓ Detailed data saved to: {detailed_file}")
+
+    print("\n" + "=" * 80)
+    print("KEY INSIGHTS FOR YOUR DASHBOARD:")
+    print("=" * 80)
+
+    for idx, row in summary_df.iterrows():
+        player = row['Player']
+        net_diff = row['Net_Rating_DIFF']
+        impact = "POSITIVE" if net_diff > 0 else "NEGATIVE"
+
+        print(f"\n{player}:")
+        print(f"  Team Net Rating: {row['Net_Rating_ON']:.1f} (ON) vs {row['Net_Rating_OFF']:.1f} (OFF)")
+        print(f"  Differential: {net_diff:+.1f} → {impact} impact")
+        print(f"  Sample: {row['Minutes_ON']:.0f} min ON, {row['Minutes_OFF']:.0f} min OFF")
+
+        if net_diff > 5:
+            print(f"  📊 Strong case for 'winning impact beyond box score'!")
+        elif net_diff > 2:
+            print(f"  📊 Solid positive impact")
+        elif net_diff > 0:
+            print(f"  📊 Modest positive impact")
+        else:
+            print(f"  ⚠️  Consider focusing on other strengths (efficiency, role)")
+
+    print("\n" + "=" * 80)
+    print("✓ ON/OFF DATA COLLECTION COMPLETE!")
+    print("=" * 80)
+    print("\nFiles created:")
+    print(f"  1. {summary_file} - Key metrics for dashboard callouts")
+    print(f"  2. {detailed_file} - Full stats for deep analysis")
+    print("\nUse the 'Net_Rating_DIFF' column for your dashboard callout boxes!")
+    print("=" * 80)
+
+
+if __name__ == "__main__":
+    main()
