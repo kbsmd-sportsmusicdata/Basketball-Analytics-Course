@@ -1,0 +1,17 @@
+teams_response = requests.get("https://api.pbpstats.com/get-teams/wnba")
+teams = teams_response.json()
+teams["teams"]
+
+[{'id': '1611661330', 'text': 'ATL'},
+ {'id': '1611661329', 'text': 'CHI'},
+ {'id': '1611661323', 'text': 'CON'},
+ {'id': '1611661321', 'text': 'DAL'},
+ {'id': '1611661331', 'text': 'GSV'},
+ {'id': '1611661325', 'text': 'IND'},
+ {'id': '1611661320', 'text': 'LAS'},
+ {'id': '1611661319', 'text': 'LVA'},
+ {'id': '1611661324', 'text': 'MIN'},
+ {'id': '1611661313', 'text': 'NYL'},
+ {'id': '1611661317', 'text': 'PHX'},
+ {'id': '1611661328', 'text': 'SEA'},
+ {'id': '1611661322', 'text': 'WAS'}]

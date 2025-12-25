@@ -1,0 +1,32 @@
+Category Name	Primary Lens	Phase of Play	What This Category Is Doing Analytically	Why It Matters Beyond Box Score	Common Misreads	Best For Analyses Like	Portfolio Angles	Example Questions It Answers	Notes
+Scoring	Offensive Production	All Offense	Combines volume, efficiency, assisted vs unassisted points, shot mix, and usage into offensive role.	Separates volume scorers from scalable scorers (creation burden vs efficiency).	Finishers look efficient in small roles; creators may look worse but are harder to replace.			"- Self-created or set up?
+- Rim/3 vs mid mix?
+- Usage/efficiency tradeoff?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Assists	Playmaking	Half Court + Transition	Turns assists into a map of where a player creates value (rim, corners, arc, midrange).	Not all assists are equal; rim/corner creation is high-value and role-informative.	Assist totals depend on teammate shotmaking; use Assist Pts + location splits.			"- Rim pressure for others or swing passes?
+- Where do assists concentrate?
+- Creator vs connector?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Rebounds	Possession Creation	After Miss	Splits rebounding by shot type and location, plus self-rebounding (putback creation).	Rebounds are hidden possessions — a foundational driver of net rating and matchup control.	Team scheme affects OReb%; interpret with lineup context.			"- Who ends opponent possessions?
+- Who extends your own?
+- Where are rebounds being won (rim/3/mid)?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Turnovers	Decision-Making	Possession Ending	Decomposes mistakes into live-ball vs dead-ball and into root-cause types (handle vs pass vs violations).	Two players can have the same TO count but different damage; live-ball TOs fuel transition points.	High-usage creators will carry risk; interpret with usage/on-ball load and TO types.			"- Handle pressure or decision-making?
+- How much is live-ball damage?
+- Which errors are coach-fixable?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Free Throw Source	Rim Pressure + Foul Drawing	All Offense	Explains where free throws come from: techs, 2PT/3PT shooting fouls, and-1s, or non-shooting scenarios.	Free throws are stable scoring; the *source* tells you sustainability (rim pressure) vs context (bonus/techs).	Raw FTA without source can mislead — equal totals can come from totally different drivers.			"- Is FT volume driven by rim pressure or bonus?
+- Do they get and-1s (finish through contact)?
+- Is 3PT foul drawing signal or noise?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Shot Distribution	Shot Profile	All Offense	This is shot DNA: where shots come from, how often, how assisted they are, and which attempts get blocked.	Box scores tell you how many shots; this tells you which shots — the basis for matchup fit and scalability.	Midrange-heavy profiles aren’t automatically bad; context (late clock, creation burden) matters.			"- Is the player a finisher or creator (assisted % + distance)?
+- Which zones drive efficiency?
+- Are attempts getting blocked at the rim?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Second Chance Stats	Conversion After OReb	Broken Possessions	This category is sneakily powerful because it separates who creates extra possessions (rebounding), from who converts them (second-chance shots), and how those chances are finished (rim vs 3, assisted vs self-created, efficiency, turnovers).	It spots value that doesn’t require plays being run — points that survive messy possessions and opponent adjustments.	High second-chance points can be team-context driven; validate with OReb%/putbacks and opportunity volume.			"- Who turns broken possessions into efficient points?
+- Are second chances rim-heavy or 3-heavy?
+- Who protects the ball after ORebs?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Penalty Stats	Bonus Offense + Foul Environment	Bonus / Late-Game	Isolates performance when the defense is in the bonus — where whistles reshape shot selection and efficiency.	Bonus environments change offense geometry; resilient players become late-game multipliers.	Penalty performance can be system/whistle driven; use with FT Source and usage context.			"- Who scores efficiently in bonus?
+- Does diet shift (rim vs 3) in penalty?
+- How many are true bonus vs take-foul effects?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Misc	Defense + Impact	All Defense	A box-score blind-spot drawer: on/off context, steal types, blocks by zone, and block recovery.	Separates highlight events from repeatable defensive skill (steal type + block recovery).	On/off is noisy in small samples; pair with minutes and role.			"- Who disrupts passing lanes vs on-ball?
+- Are blocks possession-ending (recovered)?
+- Who shifts team efficiency on-court?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Number of Fouls	Availability Risk	Foul Trouble	Tracks when players hit foul thresholds by quarter — availability risk, rotation disruption, late-game readiness.	Timing matters more than totals; early foul trouble can erase half a game of impact.	Low-minute players can look clean due to protection; normalize by minutes and role.			"- Who gets in trouble early?
+- Which matchups trigger thresholds?
+- Who stays available late?"	Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.
+Universal ID / Context Fields (appear across most tables)	—	—							Mapped from PBP Stats Totals→Player table headers. Tooltip definitions can be added later.

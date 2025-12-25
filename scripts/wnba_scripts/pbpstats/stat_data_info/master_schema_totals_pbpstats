@@ -1,0 +1,318 @@
+# PBP Stats (WNBA Totals → Player) — Master Schema (Table Data → Column Groupings)
+
+This file merges the category→metric mappings captured from the PBP Stats **Totals → Player** table views (WNBA).  
+Use it as a canonical taxonomy to **auto-tag columns** in BigQuery / Sheets / Notion.
+
+---
+
+## Universal ID / Context Fields (appear across most tables)
+- Name
+- Team
+- GP (Games Played)
+- Minutes
+
+---
+
+## Assists
+**Core**
+- Assists
+- Assist Pts
+
+**By shot type**
+- 2pt
+- 3pt
+
+**By shot location**
+- At Rim (≤ 4ft)
+- SMR (Short Mid-Range; 4–14ft)
+- LMR (Long Mid-Range; ≥14ft 2PT)
+- C3 (Corner 3)
+- AB3 (Arc / Above-the-Break 3)
+
+---
+
+## Rebounds
+**Aggregate**
+- Reb
+- DReb
+- OReb
+
+**Defensive Rebounding — by shot type**
+- FT DReb
+- FT DReb%
+- 2Pt DReb
+- 2Pt DReb%
+- 3Pt DReb
+- 3Pt DReb%
+- FG DReb%
+
+**Offensive Rebounding — by shot type**
+- FT OReb
+- FT OReb%
+- 2Pt OReb
+- 2Pt OReb%
+- 3Pt OReb
+- 3Pt OReb%
+- FG OReb%
+
+**By location**
+- Rim DReb%
+- SMR DReb%
+- LMR DReb%
+- AB3 DReb%
+- C3 DReb%
+- Rim OReb%
+- SMR OReb%
+- LMR OReb%
+- AB3 OReb%
+- C3 OReb%
+
+**Self-rebounding (putbacks)**
+- Z-Bounds
+- Z-Bound Pct
+
+---
+
+## Turnovers
+**Volume**
+- TOs
+- Live Ball TOs
+- Dead Ball TOs
+
+**Rates**
+- Live Ball TO%
+
+**Types — handling & passing**
+- Lost Ball
+- Lost Ball Out of Bounds
+- Bad Pass
+- Bad Pass Out of Bounds
+
+**Types — violations**
+- Travels
+- 3 Second Violation
+- Step Out of Bounds
+- Offensive Goaltending
+
+---
+
+## Free Throw Source
+**Attempts / trips by foul type**
+- FTA
+- Tech FTA
+- 2pt SFD
+- 2pt And 1s
+- 3pt SFD
+- 3pt And 1s
+- Non Shooting
+
+**Rates**
+- SFD Rate
+- 2pt SFD Rate
+- 3pt SFD Rate
+
+---
+
+## Shot Distribution
+**Global**
+- Shot Quality
+- Rim or 3 Freq
+- Avg 2pt Shot Distance
+- Avg 3pt Shot Distance
+
+**At Rim (≤4ft)**
+- Rim FGM
+- Rim FGA
+- Rim Freq
+- Rim FG%
+- Unblocked Rim FG%
+- Rim %AST
+- % of Rim FGAB
+
+**Short Mid-Range (SMR ~4–14ft)**
+- SMR FGM
+- SMR FGA
+- SMR Freq
+- SMR FG%
+- Unblocked SMR FG%
+- SMR %AST
+- % of SMR FGAB
+
+**Long Mid-Range (LMR ≥14ft, 2PT)**
+- LMR FGM
+- LMR FGA
+- LMR Freq
+- LMR FG%
+- Unblocked LMR FG%
+- LMR %AST
+- % of LMR FGAB
+
+**Corner 3 (C3)**
+- C3 FGM
+- C3 FGA
+- C3 Freq
+- C3 FG%
+- Unblocked C3 FG%
+- C3 %AST
+- % of C3 FGAB
+
+**Above-the-Break 3 (AB3)**
+- AB3 FGM
+- AB3 FGA
+- AB3 Freq
+- AB3 FG%
+- Unblocked AB3 FG%
+- AB3 %AST
+- % of AB3 FGAB
+
+**Non-Heave 3s**
+- Non-Heave AB3 FGM
+- Non-Heave AB3 FGA
+- Non-Heave AB3 FG%
+
+**Heaves**
+- Heaves
+- Heaves Made
+
+---
+
+## Second Chance Stats
+**Possessions & points**
+- SecondChanceOffPoss
+- SecondChancePoints
+- SecondChancePointsPct
+
+**Overall efficiency**
+- SecondChanceFG2M
+- SecondChanceFG2A
+- SecondChanceFG2Pct
+- SecondChanceFG3M
+- SecondChanceFG3A
+- SecondChanceFG3Pct
+- SecondChanceFtPoints
+- SecondChanceEFGPct
+- SecondChanceTSPct
+- SecondChanceShotQualityAvg
+
+**Location splits**
+- SecondChanceAtRimFGM
+- SecondChanceAtRimFGA
+- SecondChanceAtRimFrequency
+- SecondChanceAtRimAccuracy
+- SecondChanceAtRimPctAssisted
+- SecondChanceCorner3FGM
+- SecondChanceCorner3FGA
+- SecondChanceCorner3Frequency
+- SecondChanceCorner3Accuracy
+- SecondChanceCorner3PctAssisted
+- SecondChanceArc3FGM
+- SecondChanceArc3FGA
+- SecondChanceArc3Frequency
+- SecondChanceArc3Accuracy
+- SecondChanceArc3PctAssisted
+
+**Ball security**
+- SecondChanceTurnovers
+
+---
+
+## Penalty Stats
+**Possessions & scoring share**
+- Possessions
+- Possessions%
+- Pts
+- Pts%
+
+**Overall shooting**
+- FG2M
+- FG2A
+- 2pt FG%
+- FG3M
+- FG3A
+- 3pt FG%
+- FT Pts
+- eFG%
+- TS%
+- Shot Quality
+
+**Location splits**
+- Rim FGM
+- Rim FGA
+- Rim Freq
+- Rim FG%
+- C3 FGM
+- C3 FGA
+- C3 Freq
+- C3 FG%
+- AB3 FGM
+- AB3 FGA
+- AB3 Freq
+- AB3 FG%
+
+**Ball security**
+- TOs
+
+**Excluding take fouls**
+- Non-Take Foul Possessions
+- Non-Take Foul Points
+
+**Penalty fouls context**
+- Non-Shooting Fouls Drawn
+- Def. Possessions
+- Non-Shooting Fouls
+
+---
+
+## Misc
+**On/Off & plus-minus**
+- P/M
+- OffRtg - On
+- DefRtg - On
+
+**First chance offense**
+- First Chance Points
+
+**Opponent-miss OReb% context**
+- 3pt Miss OReb%
+- Rim Miss OReb%
+- SMR Miss OReb%
+- LMR Miss OReb%
+
+**Blocks**
+- Blocks
+- 2pt Blocks
+- 3pt Blocks
+- Rim Blocks
+- SMR Blocks
+- LMR Blocks
+- C3 Blocks
+- AB3 Blocks
+
+**Block outcomes**
+- BLK REC
+- BLK REC%
+
+**Steals**
+- Steals
+- Lost Ball Steals
+- Bad Pass Steals
+
+**Violations**
+- Goaltending Violations
+
+---
+
+## Number of Fouls
+**Threshold timing by period**
+- Q1 2F
+- Q1 3F
+- Q2 2F
+- Q2 3F
+- Q2 4F
+- Q3 3F
+- Q3 4F
+- Q3 5F
+- Q4 4F
+- Q4 5F
+- OT 4F
+- OT 5F
