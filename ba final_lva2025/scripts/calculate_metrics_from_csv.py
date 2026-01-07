@@ -19,7 +19,7 @@ from pathlib import Path
 
 # File paths - UPDATE THESE to your actual CSV locations
 TEAM_CSV = "aces_team_box.csv"  # Your team box score CSV
-PLAYER_CSV = "aces_player_box.csv"  # Your player box score CSV
+PLAYER_CSV = "ba final_lva2025/data/processed/top8players/aces_player_box_2025.csv"  # Your player box score CSV
 
 # Output paths
 OUTPUT_DIR = Path("data/processed")
