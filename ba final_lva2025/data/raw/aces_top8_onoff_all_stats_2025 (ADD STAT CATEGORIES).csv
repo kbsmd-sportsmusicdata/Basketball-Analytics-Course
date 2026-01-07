@@ -1,0 +1,713 @@
+player_id,player_name,stat,stat_value_player_on,stat_value_player_off,player_stat_value_diff
+203833,Chelsea Gray,2pt FGM Assist%,0.572,0.513,0.06
+203833,Chelsea Gray,Non Putback 2pt FGM Assist%,0.614,0.538,0.08
+203833,Chelsea Gray,3pt FGM Assist%,0.899,0.826,0.07
+203833,Chelsea Gray,3pt FG%,0.36,0.326,0.03
+203833,Chelsea Gray,Non-Heave 3pt FG%,0.361,0.328,0.03
+203833,Chelsea Gray,2pt FG%,0.516,0.408,0.11
+203833,Chelsea Gray,eFG%,0.525,0.441,0.08
+203833,Chelsea Gray,TS%,0.57,0.492,0.08
+203833,Chelsea Gray,3PAr,0.374,0.414,-0.04
+203833,Chelsea Gray,% of FG3A Blocked,0.008,0.019,-0.01
+203833,Chelsea Gray,% of FG2A Blocked,0.054,0.062,-0.01
+203833,Chelsea Gray,Live Ball TO%,0.532,0.437,0.1
+203833,Chelsea Gray,DReb% - Missed FTs,0.875,0.636,0.24
+203833,Chelsea Gray,OReb% - Missed FTs,0.132,0.118,0.01
+203833,Chelsea Gray,DReb% - Missed 2s,0.67,0.717,-0.05
+203833,Chelsea Gray,OReb% - Missed 2s,0.288,0.215,0.07
+203833,Chelsea Gray,DReb% - Missed 3s,0.75,0.723,0.03
+203833,Chelsea Gray,OReb% - Missed 3s,0.273,0.207,0.07
+203833,Chelsea Gray,DReb% - Missed FGs,0.702,0.719,-0.02
+203833,Chelsea Gray,OReb% - Missed FGs,0.281,0.211,0.07
+203833,Chelsea Gray,At Rim OReb%,0.338,0.314,0.02
+203833,Chelsea Gray,Short Mid-Range OReb%,0.293,0.215,0.08
+203833,Chelsea Gray,Long Mid-Range OReb%,0.233,0.136,0.1
+203833,Chelsea Gray,Arc 3 OReb%,0.266,0.209,0.06
+203833,Chelsea Gray,Corner 3 OReb%,0.29,0.2,0.09
+203833,Chelsea Gray,At Rim DReb%,0.581,0.654,-0.07
+203833,Chelsea Gray,Short Mid-Range DReb%,0.68,0.754,-0.07
+203833,Chelsea Gray,Long Mid-Range DReb%,0.759,0.689,0.07
+203833,Chelsea Gray,Arc 3 DReb%,0.743,0.738,0.01
+203833,Chelsea Gray,Corner 3 DReb%,0.786,0.636,0.15
+203833,Chelsea Gray,Blocks Recovered %,0.534,0.535,0
+203833,Chelsea Gray,Seconds Per Possession - Offense,15.461,15.717,-0.26
+203833,Chelsea Gray,Seconds Per Possession - Defense,15.35,14.678,0.67
+203833,Chelsea Gray,At Rim Shot Frequency,0.16,0.122,0.04
+203833,Chelsea Gray,At Rim FG%,0.648,0.551,0.1
+203833,Chelsea Gray,At Rim % Assisted,0.564,0.465,0.1
+203833,Chelsea Gray,Short Mid Range Shot Frequency,0.34,0.353,-0.01
+203833,Chelsea Gray,Short Mid Range FG%,0.479,0.369,0.11
+203833,Chelsea Gray,Short Mid Range % Assisted,0.572,0.47,0.1
+203833,Chelsea Gray,Long Mid Range Shot Frequency,0.126,0.11,0.02
+203833,Chelsea Gray,Long Mid Range FG%,0.448,0.371,0.08
+203833,Chelsea Gray,Long Mid % Assisted,0.586,0.731,-0.14
+203833,Chelsea Gray,Corner 3 Shot Frequency,0.105,0.089,0.02
+203833,Chelsea Gray,Corner 3 FG%,0.372,0.298,0.07
+203833,Chelsea Gray,Corner 3 % Assisted,0.978,1,-0.02
+203833,Chelsea Gray,Arc 3 Shot Frequency,0.269,0.325,-0.06
+203833,Chelsea Gray,Arc 3 FG%,0.355,0.333,0.02
+203833,Chelsea Gray,Arc 3 % Assisted,0.866,0.783,0.08
+203833,Chelsea Gray,At Rim or 3pt Shot Frequency,0.533,0.537,0
+203833,Chelsea Gray,Non-Heave Arc 3 FG%,0.357,0.337,0.02
+203833,Chelsea Gray,Shot Quality,0.475,0.466,0.01
+203833,Chelsea Gray,Shooting Foul Drawn Rate,0.105,0.114,-0.01
+203833,Chelsea Gray,3pt Shooting Foul Drawn Rate,0.152,0.173,-0.02
+203833,Chelsea Gray,2pt Shooting Foul Drawn Rate,0.017,0.019,0
+203833,Chelsea Gray,Second Chance Points%,0.129,0.123,0.01
+203833,Chelsea Gray,Penalty Points%,0.236,0.289,-0.05
+203833,Chelsea Gray,Penalty Possessions%,0.22,0.291,-0.07
+203833,Chelsea Gray,Avg 2pt Shot Distance,8.291,8.373,-0.08
+203833,Chelsea Gray,Avg 3pt Shot Distance,24.841,24.987,-0.15
+203833,Chelsea Gray,Penalty Efficiency Excluding Last Minute Take Foul Possessions,119.349,91.518,27.83
+203833,Chelsea Gray,DReb%,0.709,0.717,-0.01
+203833,Chelsea Gray,OReb%,0.275,0.207,0.07
+203833,Chelsea Gray,Pts per 100 Possessions,111.721,92.078,19.64
+203833,Chelsea Gray,Assist Points per 100 Possessions,64.203,47.922,16.28
+203833,Chelsea Gray,FTA per 100 Possessions,23.703,23.766,-0.06
+203833,Chelsea Gray,TOs per 100 Possessions,16.349,17.532,-1.18
+203833,Chelsea Gray,Assists per 100 Possessions,26.801,19.351,7.45
+203833,Chelsea Gray,Pts per 100 Possessions - Defense,104.649,98.163,6.49
+203833,Chelsea Gray,Shot Quality - Defense,0.478,0.481,0
+203833,Chelsea Gray,3pt FG% - Defense,0.334,0.249,0.09
+203833,Chelsea Gray,2pt FG% - Defense,0.493,0.502,-0.01
+203833,Chelsea Gray,eFG% - Defense,0.496,0.461,0.04
+203833,Chelsea Gray,3PAr - Defense,0.338,0.317,0.02
+203833,Chelsea Gray,At Rim Shot Frequency - Defense,0.223,0.253,-0.03
+203833,Chelsea Gray,At Rim FG% - Defense,0.634,0.677,-0.04
+203833,Chelsea Gray,Short Mid Range Shot Frequency - Defense,0.333,0.316,0.02
+203833,Chelsea Gray,Short Mid Range FG% - Defense,0.424,0.409,0.02
+203833,Chelsea Gray,Long Mid Range Shot Frequency - Defense,0.106,0.114,-0.01
+203833,Chelsea Gray,Long Mid Range FG% - Defense,0.417,0.373,0.04
+203833,Chelsea Gray,Corner 3 Shot Frequency - Defense,0.061,0.056,0.01
+203833,Chelsea Gray,Corner 3 FG% - Defense,0.403,0.405,0
+203833,Chelsea Gray,Arc 3 Shot Frequency - Defense,0.277,0.261,0.02
+203833,Chelsea Gray,Arc 3 FG% - Defense,0.319,0.215,0.1
+203833,Chelsea Gray,Pace,93.473,94.734,-1.26
+203833,Chelsea Gray,Second Chance Efficiency,124.437,110.127,14.31
+203833,Chelsea Gray,Penalty Efficiency,119.831,91.518,28.31
+203833,Chelsea Gray,Second Chance Possessions Per 100 Possessions,11.609,10.26,1.35
+203833,Chelsea Gray,First Chance Points Per 100 Possessions,97.275,80.779,16.5
+203833,Chelsea Gray,Second Chance Points Per 100 Possessions,14.446,11.299,3.15
+204319,Jewell Loyd,2pt FGM Assist%,0.537,0.618,-0.08
+204319,Jewell Loyd,Non Putback 2pt FGM Assist%,0.575,0.656,-0.08
+204319,Jewell Loyd,3pt FGM Assist%,0.873,0.91,-0.04
+204319,Jewell Loyd,3pt FG%,0.364,0.319,0.04
+204319,Jewell Loyd,Non-Heave 3pt FG%,0.365,0.321,0.05
+204319,Jewell Loyd,2pt FG%,0.49,0.498,-0.01
+204319,Jewell Loyd,eFG%,0.512,0.491,0.02
+204319,Jewell Loyd,TS%,0.557,0.539,0.02
+204319,Jewell Loyd,3PAr,0.391,0.362,0.03
+204319,Jewell Loyd,% of FG3A Blocked,0.007,0.016,-0.01
+204319,Jewell Loyd,% of FG2A Blocked,0.053,0.062,-0.01
+204319,Jewell Loyd,Live Ball TO%,0.51,0.506,0
+204319,Jewell Loyd,DReb% - Missed FTs,0.867,0.773,0.09
+204319,Jewell Loyd,OReb% - Missed FTs,0.115,0.167,-0.05
+204319,Jewell Loyd,DReb% - Missed 2s,0.687,0.661,0.03
+204319,Jewell Loyd,OReb% - Missed 2s,0.274,0.265,0.01
+204319,Jewell Loyd,DReb% - Missed 3s,0.742,0.753,-0.01
+204319,Jewell Loyd,OReb% - Missed 3s,0.263,0.24,0.02
+204319,Jewell Loyd,DReb% - Missed FGs,0.709,0.697,0.01
+204319,Jewell Loyd,OReb% - Missed FGs,0.269,0.254,0.02
+204319,Jewell Loyd,At Rim OReb%,0.336,0.327,0.01
+204319,Jewell Loyd,Short Mid-Range OReb%,0.272,0.277,0
+204319,Jewell Loyd,Long Mid-Range OReb%,0.224,0.191,0.03
+204319,Jewell Loyd,Arc 3 OReb%,0.262,0.223,0.04
+204319,Jewell Loyd,Corner 3 OReb%,0.266,0.294,-0.03
+204319,Jewell Loyd,At Rim DReb%,0.625,0.527,0.1
+204319,Jewell Loyd,Short Mid-Range DReb%,0.696,0.693,0
+204319,Jewell Loyd,Long Mid-Range DReb%,0.737,0.745,-0.01
+204319,Jewell Loyd,Arc 3 DReb%,0.74,0.75,-0.01
+204319,Jewell Loyd,Corner 3 DReb%,0.75,0.767,-0.02
+204319,Jewell Loyd,Blocks Recovered %,0.551,0.493,0.06
+204319,Jewell Loyd,Seconds Per Possession - Offense,15.271,16.15,-0.88
+204319,Jewell Loyd,Seconds Per Possession - Defense,15.224,15.129,0.1
+204319,Jewell Loyd,At Rim Shot Frequency,0.146,0.161,-0.01
+204319,Jewell Loyd,At Rim FG%,0.617,0.647,-0.03
+204319,Jewell Loyd,At Rim % Assisted,0.532,0.578,-0.05
+204319,Jewell Loyd,Short Mid Range Shot Frequency,0.345,0.342,0
+204319,Jewell Loyd,Short Mid Range FG%,0.452,0.463,-0.01
+204319,Jewell Loyd,Short Mid Range % Assisted,0.523,0.628,-0.1
+204319,Jewell Loyd,Long Mid Range Shot Frequency,0.118,0.135,-0.02
+204319,Jewell Loyd,Long Mid Range FG%,0.446,0.41,0.04
+204319,Jewell Loyd,Long Mid % Assisted,0.586,0.667,-0.08
+204319,Jewell Loyd,Corner 3 Shot Frequency,0.108,0.088,0.02
+204319,Jewell Loyd,Corner 3 FG%,0.37,0.329,0.04
+204319,Jewell Loyd,Corner 3 % Assisted,0.976,1,-0.02
+204319,Jewell Loyd,Arc 3 Shot Frequency,0.283,0.274,0.01
+204319,Jewell Loyd,Arc 3 FG%,0.361,0.316,0.05
+204319,Jewell Loyd,Arc 3 % Assisted,0.833,0.88,-0.05
+204319,Jewell Loyd,At Rim or 3pt Shot Frequency,0.537,0.523,0.01
+204319,Jewell Loyd,Non-Heave Arc 3 FG%,0.364,0.318,0.05
+204319,Jewell Loyd,Shot Quality,0.472,0.473,0
+204319,Jewell Loyd,Shooting Foul Drawn Rate,0.104,0.113,-0.01
+204319,Jewell Loyd,3pt Shooting Foul Drawn Rate,0.155,0.159,0
+204319,Jewell Loyd,2pt Shooting Foul Drawn Rate,0.016,0.022,-0.01
+204319,Jewell Loyd,Second Chance Points%,0.129,0.125,0
+204319,Jewell Loyd,Penalty Points%,0.254,0.22,0.03
+204319,Jewell Loyd,Penalty Possessions%,0.242,0.215,0.03
+204319,Jewell Loyd,Avg 2pt Shot Distance,8.283,8.428,-0.14
+204319,Jewell Loyd,Avg 3pt Shot Distance,24.826,25.012,-0.19
+204319,Jewell Loyd,Penalty Efficiency Excluding Last Minute Take Foul Possessions,113.058,106.481,6.58
+204319,Jewell Loyd,DReb%,0.715,0.7,0.01
+204319,Jewell Loyd,OReb%,0.263,0.251,0.01
+204319,Jewell Loyd,Pts per 100 Possessions,108.395,103.976,4.42
+204319,Jewell Loyd,Assist Points per 100 Possessions,60.165,60.934,-0.77
+204319,Jewell Loyd,FTA per 100 Possessions,23.457,24.155,-0.7
+204319,Jewell Loyd,TOs per 100 Possessions,16.379,17.296,-0.92
+204319,Jewell Loyd,Assists per 100 Possessions,24.691,25.944,-1.25
+204319,Jewell Loyd,Pts per 100 Possessions - Defense,103.909,101.885,2.03
+204319,Jewell Loyd,Shot Quality - Defense,0.478,0.48,0
+204319,Jewell Loyd,3pt FG% - Defense,0.312,0.324,-0.01
+204319,Jewell Loyd,2pt FG% - Defense,0.503,0.48,0.02
+204319,Jewell Loyd,eFG% - Defense,0.491,0.482,0.01
+204319,Jewell Loyd,3PAr - Defense,0.333,0.335,0
+204319,Jewell Loyd,At Rim Shot Frequency - Defense,0.229,0.23,0
+204319,Jewell Loyd,At Rim FG% - Defense,0.65,0.634,0.02
+204319,Jewell Loyd,Short Mid Range Shot Frequency - Defense,0.329,0.33,0
+204319,Jewell Loyd,Short Mid Range FG% - Defense,0.432,0.393,0.04
+204319,Jewell Loyd,Long Mid Range Shot Frequency - Defense,0.109,0.105,0
+204319,Jewell Loyd,Long Mid Range FG% - Defense,0.407,0.415,-0.01
+204319,Jewell Loyd,Corner 3 Shot Frequency - Defense,0.061,0.057,0
+204319,Jewell Loyd,Corner 3 FG% - Defense,0.395,0.412,-0.02
+204319,Jewell Loyd,Arc 3 Shot Frequency - Defense,0.272,0.278,-0.01
+204319,Jewell Loyd,Arc 3 FG% - Defense,0.294,0.306,-0.01
+204319,Jewell Loyd,Pace,94.442,92.077,2.36
+204319,Jewell Loyd,Second Chance Efficiency,122.662,118.018,4.64
+204319,Jewell Loyd,Penalty Efficiency,113.605,106.481,7.12
+204319,Jewell Loyd,Second Chance Possessions Per 100 Possessions,11.44,11.034,0.41
+204319,Jewell Loyd,First Chance Points Per 100 Possessions,94.362,90.954,3.41
+204319,Jewell Loyd,Second Chance Points Per 100 Possessions,14.033,13.022,1.01
+1628932,A'ja Wilson,2pt FGM Assist%,0.604,0.417,0.19
+1628932,A'ja Wilson,Non Putback 2pt FGM Assist%,0.648,0.44,0.21
+1628932,A'ja Wilson,3pt FGM Assist%,0.896,0.85,0.05
+1628932,A'ja Wilson,3pt FG%,0.369,0.314,0.06
+1628932,A'ja Wilson,Non-Heave 3pt FG%,0.371,0.315,0.06
+1628932,A'ja Wilson,2pt FG%,0.509,0.447,0.06
+1628932,A'ja Wilson,eFG%,0.525,0.458,0.07
+1628932,A'ja Wilson,TS%,0.571,0.503,0.07
+1628932,A'ja Wilson,3PAr,0.36,0.441,-0.08
+1628932,A'ja Wilson,% of FG3A Blocked,0.006,0.019,-0.01
+1628932,A'ja Wilson,% of FG2A Blocked,0.052,0.066,-0.01
+1628932,A'ja Wilson,Live Ball TO%,0.528,0.475,0.05
+1628932,A'ja Wilson,DReb% - Missed FTs,0.848,0.81,0.04
+1628932,A'ja Wilson,OReb% - Missed FTs,0.113,0.167,-0.05
+1628932,A'ja Wilson,DReb% - Missed 2s,0.696,0.642,0.06
+1628932,A'ja Wilson,OReb% - Missed 2s,0.279,0.251,0.03
+1628932,A'ja Wilson,DReb% - Missed 3s,0.762,0.697,0.06
+1628932,A'ja Wilson,OReb% - Missed 3s,0.27,0.234,0.04
+1628932,A'ja Wilson,DReb% - Missed FGs,0.722,0.663,0.06
+1628932,A'ja Wilson,OReb% - Missed FGs,0.275,0.243,0.03
+1628932,A'ja Wilson,At Rim OReb%,0.395,0.212,0.18
+1628932,A'ja Wilson,Short Mid-Range OReb%,0.271,0.279,-0.01
+1628932,A'ja Wilson,Long Mid-Range OReb%,0.211,0.216,0
+1628932,A'ja Wilson,Arc 3 OReb%,0.256,0.244,0.01
+1628932,A'ja Wilson,Corner 3 OReb%,0.307,0.203,0.1
+1628932,A'ja Wilson,At Rim DReb%,0.595,0.61,-0.02
+1628932,A'ja Wilson,Short Mid-Range DReb%,0.723,0.634,0.09
+1628932,A'ja Wilson,Long Mid-Range DReb%,0.754,0.708,0.05
+1628932,A'ja Wilson,Arc 3 DReb%,0.754,0.708,0.05
+1628932,A'ja Wilson,Corner 3 DReb%,0.8,0.645,0.16
+1628932,A'ja Wilson,Blocks Recovered %,0.558,0.462,0.1
+1628932,A'ja Wilson,Seconds Per Possession - Offense,15.274,16.142,-0.87
+1628932,A'ja Wilson,Seconds Per Possession - Defense,15.273,15.03,0.24
+1628932,A'ja Wilson,At Rim Shot Frequency,0.159,0.134,0.03
+1628932,A'ja Wilson,At Rim FG%,0.667,0.514,0.15
+1628932,A'ja Wilson,At Rim % Assisted,0.561,0.5,0.06
+1628932,A'ja Wilson,Short Mid Range Shot Frequency,0.356,0.309,0.05
+1628932,A'ja Wilson,Short Mid Range FG%,0.464,0.425,0.04
+1628932,A'ja Wilson,Short Mid Range % Assisted,0.607,0.374,0.23
+1628932,A'ja Wilson,Long Mid Range Shot Frequency,0.125,0.116,0.01
+1628932,A'ja Wilson,Long Mid Range FG%,0.434,0.432,0
+1628932,A'ja Wilson,Long Mid % Assisted,0.678,0.415,0.26
+1628932,A'ja Wilson,Corner 3 Shot Frequency,0.097,0.116,-0.02
+1628932,A'ja Wilson,Corner 3 FG%,0.348,0.379,-0.03
+1628932,A'ja Wilson,Corner 3 % Assisted,0.973,1,-0.03
+1628932,A'ja Wilson,Arc 3 Shot Frequency,0.264,0.325,-0.06
+1628932,A'ja Wilson,Arc 3 FG%,0.377,0.291,0.09
+1628932,A'ja Wilson,Arc 3 % Assisted,0.87,0.779,0.09
+1628932,A'ja Wilson,At Rim or 3pt Shot Frequency,0.519,0.575,-0.06
+1628932,A'ja Wilson,Non-Heave Arc 3 FG%,0.38,0.292,0.09
+1628932,A'ja Wilson,Shot Quality,0.477,0.464,0.01
+1628932,A'ja Wilson,Shooting Foul Drawn Rate,0.11,0.097,0.01
+1628932,A'ja Wilson,3pt Shooting Foul Drawn Rate,0.156,0.157,0
+1628932,A'ja Wilson,2pt Shooting Foul Drawn Rate,0.02,0.011,0.01
+1628932,A'ja Wilson,Second Chance Points%,0.134,0.11,0.02
+1628932,A'ja Wilson,Penalty Points%,0.227,0.305,-0.08
+1628932,A'ja Wilson,Penalty Possessions%,0.214,0.291,-0.08
+1628932,A'ja Wilson,Avg 2pt Shot Distance,8.272,8.401,-0.13
+1628932,A'ja Wilson,Avg 3pt Shot Distance,24.758,25.124,-0.37
+1628932,A'ja Wilson,Penalty Efficiency Excluding Last Minute Take Foul Possessions,119.157,97.902,21.26
+1628932,A'ja Wilson,DReb%,0.727,0.669,0.06
+1628932,A'ja Wilson,OReb%,0.268,0.24,0.03
+1628932,A'ja Wilson,Pts per 100 Possessions,112.885,93.286,19.6
+1628932,A'ja Wilson,Assist Points per 100 Possessions,66.086,46.592,19.49
+1628932,A'ja Wilson,FTA per 100 Possessions,24.635,21.567,3.07
+1628932,A'ja Wilson,TOs per 100 Possessions,15.113,20.346,-5.23
+1628932,A'ja Wilson,Assists per 100 Possessions,27.796,18.413,9.38
+1628932,A'ja Wilson,Pts per 100 Possessions - Defense,100.445,110.194,-9.75
+1628932,A'ja Wilson,Shot Quality - Defense,0.483,0.469,0.01
+1628932,A'ja Wilson,3pt FG% - Defense,0.329,0.282,0.05
+1628932,A'ja Wilson,2pt FG% - Defense,0.482,0.527,-0.04
+1628932,A'ja Wilson,eFG% - Defense,0.486,0.495,-0.01
+1628932,A'ja Wilson,3PAr - Defense,0.345,0.303,0.04
+1628932,A'ja Wilson,At Rim Shot Frequency - Defense,0.228,0.233,0
+1628932,A'ja Wilson,At Rim FG% - Defense,0.62,0.701,-0.08
+1628932,A'ja Wilson,Short Mid Range Shot Frequency - Defense,0.321,0.351,-0.03
+1628932,A'ja Wilson,Short Mid Range FG% - Defense,0.419,0.425,-0.01
+1628932,A'ja Wilson,Long Mid Range Shot Frequency - Defense,0.106,0.113,-0.01
+1628932,A'ja Wilson,Long Mid Range FG% - Defense,0.373,0.485,-0.11
+1628932,A'ja Wilson,Corner 3 Shot Frequency - Defense,0.065,0.047,0.02
+1628932,A'ja Wilson,Corner 3 FG% - Defense,0.457,0.22,0.24
+1628932,A'ja Wilson,Arc 3 Shot Frequency - Defense,0.28,0.257,0.02
+1628932,A'ja Wilson,Arc 3 FG% - Defense,0.299,0.293,0.01
+1628932,A'ja Wilson,Pace,94.282,92.387,1.9
+1628932,A'ja Wilson,Second Chance Efficiency,128.966,99.02,29.95
+1628932,A'ja Wilson,Penalty Efficiency,119.697,97.902,21.8
+1628932,A'ja Wilson,Second Chance Possessions Per 100 Possessions,11.75,10.376,1.37
+1628932,A'ja Wilson,First Chance Points Per 100 Possessions,97.731,83.011,14.72
+1628932,A'ja Wilson,Second Chance Points Per 100 Possessions,15.154,10.275,4.88
+1630389,Dana Evans,2pt FGM Assist%,0.51,0.595,-0.08
+1630389,Dana Evans,Non Putback 2pt FGM Assist%,0.536,0.642,-0.11
+1630389,Dana Evans,3pt FGM Assist%,0.851,0.907,-0.06
+1630389,Dana Evans,3pt FG%,0.332,0.368,-0.04
+1630389,Dana Evans,Non-Heave 3pt FG%,0.334,0.369,-0.04
+1630389,Dana Evans,2pt FG%,0.467,0.511,-0.04
+1630389,Dana Evans,eFG%,0.48,0.526,-0.05
+1630389,Dana Evans,TS%,0.528,0.57,-0.04
+1630389,Dana Evans,3PAr,0.408,0.363,0.05
+1630389,Dana Evans,% of FG3A Blocked,0.011,0.008,0
+1630389,Dana Evans,% of FG2A Blocked,0.068,0.046,0.02
+1630389,Dana Evans,Live Ball TO%,0.463,0.546,-0.08
+1630389,Dana Evans,DReb% - Missed FTs,0.833,0.839,0
+1630389,Dana Evans,OReb% - Missed FTs,0.148,0.116,0.03
+1630389,Dana Evans,DReb% - Missed 2s,0.683,0.676,0.01
+1630389,Dana Evans,OReb% - Missed 2s,0.24,0.295,-0.05
+1630389,Dana Evans,DReb% - Missed 3s,0.716,0.764,-0.05
+1630389,Dana Evans,OReb% - Missed 3s,0.231,0.28,-0.05
+1630389,Dana Evans,DReb% - Missed FGs,0.696,0.712,-0.02
+1630389,Dana Evans,OReb% - Missed FGs,0.236,0.288,-0.05
+1630389,Dana Evans,At Rim OReb%,0.295,0.368,-0.07
+1630389,Dana Evans,Short Mid-Range OReb%,0.246,0.294,-0.05
+1630389,Dana Evans,Long Mid-Range OReb%,0.174,0.241,-0.07
+1630389,Dana Evans,Arc 3 OReb%,0.24,0.26,-0.02
+1630389,Dana Evans,Corner 3 OReb%,0.202,0.327,-0.12
+1630389,Dana Evans,At Rim DReb%,0.667,0.55,0.12
+1630389,Dana Evans,Short Mid-Range DReb%,0.685,0.703,-0.02
+1630389,Dana Evans,Long Mid-Range DReb%,0.696,0.771,-0.07
+1630389,Dana Evans,Arc 3 DReb%,0.739,0.746,-0.01
+1630389,Dana Evans,Corner 3 DReb%,0.605,0.857,-0.25
+1630389,Dana Evans,Blocks Recovered %,0.519,0.541,-0.02
+1630389,Dana Evans,Seconds Per Possession - Offense,15.943,15.205,0.74
+1630389,Dana Evans,Seconds Per Possession - Defense,15.001,15.348,-0.35
+1630389,Dana Evans,At Rim Shot Frequency,0.136,0.161,-0.03
+1630389,Dana Evans,At Rim FG%,0.552,0.674,-0.12
+1630389,Dana Evans,At Rim % Assisted,0.438,0.603,-0.17
+1630389,Dana Evans,Short Mid Range Shot Frequency,0.335,0.351,-0.02
+1630389,Dana Evans,Short Mid Range FG%,0.442,0.465,-0.02
+1630389,Dana Evans,Short Mid Range % Assisted,0.511,0.583,-0.07
+1630389,Dana Evans,Long Mid Range Shot Frequency,0.121,0.124,0
+1630389,Dana Evans,Long Mid Range FG%,0.442,0.429,0.01
+1630389,Dana Evans,Long Mid % Assisted,0.609,0.611,0
+1630389,Dana Evans,Corner 3 Shot Frequency,0.1,0.103,0
+1630389,Dana Evans,Corner 3 FG%,0.349,0.368,-0.02
+1630389,Dana Evans,Corner 3 % Assisted,1,0.969,0.03
+1630389,Dana Evans,Arc 3 Shot Frequency,0.308,0.26,0.05
+1630389,Dana Evans,Arc 3 FG%,0.327,0.368,-0.04
+1630389,Dana Evans,Arc 3 % Assisted,0.798,0.883,-0.08
+1630389,Dana Evans,At Rim or 3pt Shot Frequency,0.544,0.525,0.02
+1630389,Dana Evans,Non-Heave Arc 3 FG%,0.329,0.37,-0.04
+1630389,Dana Evans,Shot Quality,0.465,0.478,-0.01
+1630389,Dana Evans,Shooting Foul Drawn Rate,0.107,0.107,0
+1630389,Dana Evans,3pt Shooting Foul Drawn Rate,0.163,0.151,0.01
+1630389,Dana Evans,2pt Shooting Foul Drawn Rate,0.015,0.019,0
+1630389,Dana Evans,Second Chance Points%,0.11,0.141,-0.03
+1630389,Dana Evans,Penalty Points%,0.297,0.207,0.09
+1630389,Dana Evans,Penalty Possessions%,0.29,0.19,0.1
+1630389,Dana Evans,Avg 2pt Shot Distance,8.439,8.247,0.19
+1630389,Dana Evans,Avg 3pt Shot Distance,25.021,24.755,0.27
+1630389,Dana Evans,Penalty Efficiency Excluding Last Minute Take Foul Possessions,102.989,121.212,-18.22
+1630389,Dana Evans,DReb%,0.702,0.716,-0.01
+1630389,Dana Evans,OReb%,0.232,0.281,-0.05
+1630389,Dana Evans,Pts per 100 Possessions,100.863,111.969,-11.11
+1630389,Dana Evans,Assist Points per 100 Possessions,53.519,65.751,-12.23
+1630389,Dana Evans,FTA per 100 Possessions,22.908,24.249,-1.34
+1630389,Dana Evans,TOs per 100 Possessions,17.065,16.321,0.74
+1630389,Dana Evans,Assists per 100 Possessions,21.846,27.565,-5.72
+1630389,Dana Evans,Pts per 100 Possessions - Defense,103.976,102.799,1.18
+1630389,Dana Evans,Shot Quality - Defense,0.475,0.482,-0.01
+1630389,Dana Evans,3pt FG% - Defense,0.283,0.337,-0.05
+1630389,Dana Evans,2pt FG% - Defense,0.518,0.478,0.04
+1630389,Dana Evans,eFG% - Defense,0.49,0.488,0
+1630389,Dana Evans,3PAr - Defense,0.302,0.358,-0.06
+1630389,Dana Evans,At Rim Shot Frequency - Defense,0.243,0.219,0.02
+1630389,Dana Evans,At Rim FG% - Defense,0.699,0.599,0.1
+1630389,Dana Evans,Short Mid Range Shot Frequency - Defense,0.349,0.315,0.03
+1630389,Dana Evans,Short Mid Range FG% - Defense,0.421,0.42,0
+1630389,Dana Evans,Long Mid Range Shot Frequency - Defense,0.107,0.108,0
+1630389,Dana Evans,Long Mid Range FG% - Defense,0.421,0.4,0.02
+1630389,Dana Evans,Corner 3 Shot Frequency - Defense,0.054,0.064,-0.01
+1630389,Dana Evans,Corner 3 FG% - Defense,0.394,0.404,-0.01
+1630389,Dana Evans,Arc 3 Shot Frequency - Defense,0.248,0.294,-0.05
+1630389,Dana Evans,Arc 3 FG% - Defense,0.258,0.323,-0.06
+1630389,Dana Evans,Pace,93.074,94.261,-1.19
+1630389,Dana Evans,Second Chance Efficiency,106.369,131.466,-25.1
+1630389,Dana Evans,Penalty Efficiency,103.204,121.798,-18.59
+1630389,Dana Evans,Second Chance Possessions Per 100 Possessions,10.425,12.021,-1.6
+1630389,Dana Evans,First Chance Points Per 100 Possessions,89.774,96.166,-6.39
+1630389,Dana Evans,Second Chance Points Per 100 Possessions,11.089,15.803,-4.71
+1629498,Jackie Young,2pt FGM Assist%,0.588,0.453,0.14
+1629498,Jackie Young,Non Putback 2pt FGM Assist%,0.63,0.48,0.15
+1629498,Jackie Young,3pt FGM Assist%,0.895,0.842,0.05
+1629498,Jackie Young,3pt FG%,0.364,0.316,0.05
+1629498,Jackie Young,Non-Heave 3pt FG%,0.365,0.319,0.05
+1629498,Jackie Young,2pt FG%,0.502,0.459,0.04
+1629498,Jackie Young,eFG%,0.518,0.465,0.05
+1629498,Jackie Young,TS%,0.565,0.51,0.05
+1629498,Jackie Young,3PAr,0.367,0.433,-0.07
+1629498,Jackie Young,% of FG3A Blocked,0.01,0.01,0
+1629498,Jackie Young,% of FG2A Blocked,0.053,0.063,-0.01
+1629498,Jackie Young,Live Ball TO%,0.526,0.461,0.07
+1629498,Jackie Young,DReb% - Missed FTs,0.846,0.8,0.05
+1629498,Jackie Young,OReb% - Missed FTs,0.118,0.158,-0.04
+1629498,Jackie Young,DReb% - Missed 2s,0.686,0.655,0.03
+1629498,Jackie Young,OReb% - Missed 2s,0.279,0.244,0.04
+1629498,Jackie Young,DReb% - Missed 3s,0.753,0.714,0.04
+1629498,Jackie Young,OReb% - Missed 3s,0.26,0.247,0.01
+1629498,Jackie Young,DReb% - Missed FGs,0.713,0.677,0.04
+1629498,Jackie Young,OReb% - Missed FGs,0.271,0.246,0.03
+1629498,Jackie Young,At Rim OReb%,0.374,0.214,0.16
+1629498,Jackie Young,Short Mid-Range OReb%,0.276,0.263,0.01
+1629498,Jackie Young,Long Mid-Range OReb%,0.208,0.226,-0.02
+1629498,Jackie Young,Arc 3 OReb%,0.243,0.271,-0.03
+1629498,Jackie Young,Corner 3 OReb%,0.306,0.18,0.13
+1629498,Jackie Young,At Rim DReb%,0.598,0.585,0.01
+1629498,Jackie Young,Short Mid-Range DReb%,0.704,0.667,0.04
+1629498,Jackie Young,Long Mid-Range DReb%,0.75,0.705,0.05
+1629498,Jackie Young,Arc 3 DReb%,0.747,0.73,0.02
+1629498,Jackie Young,Corner 3 DReb%,0.784,0.611,0.17
+1629498,Jackie Young,Blocks Recovered %,0.541,0.5,0.04
+1629498,Jackie Young,Seconds Per Possession - Offense,15.378,16.004,-0.63
+1629498,Jackie Young,Seconds Per Possession - Defense,15.34,14.74,0.6
+1629498,Jackie Young,At Rim Shot Frequency,0.158,0.125,0.03
+1629498,Jackie Young,At Rim FG%,0.653,0.517,0.14
+1629498,Jackie Young,At Rim % Assisted,0.562,0.467,0.1
+1629498,Jackie Young,Short Mid Range Shot Frequency,0.354,0.311,0.04
+1629498,Jackie Young,Short Mid Range FG%,0.455,0.454,0
+1629498,Jackie Young,Short Mid Range % Assisted,0.573,0.48,0.09
+1629498,Jackie Young,Long Mid Range Shot Frequency,0.121,0.131,-0.01
+1629498,Jackie Young,Long Mid Range FG%,0.44,0.418,0.02
+1629498,Jackie Young,Long Mid % Assisted,0.686,0.368,0.32
+1629498,Jackie Young,Corner 3 Shot Frequency,0.1,0.106,-0.01
+1629498,Jackie Young,Corner 3 FG%,0.371,0.324,0.05
+1629498,Jackie Young,Corner 3 % Assisted,0.976,1,-0.02
+1629498,Jackie Young,Arc 3 Shot Frequency,0.267,0.327,-0.06
+1629498,Jackie Young,Arc 3 FG%,0.362,0.313,0.05
+1629498,Jackie Young,Arc 3 % Assisted,0.864,0.789,0.08
+1629498,Jackie Young,At Rim or 3pt Shot Frequency,0.525,0.558,-0.03
+1629498,Jackie Young,Non-Heave Arc 3 FG%,0.363,0.317,0.05
+1629498,Jackie Young,Shot Quality,0.475,0.465,0.01
+1629498,Jackie Young,Shooting Foul Drawn Rate,0.107,0.104,0
+1629498,Jackie Young,3pt Shooting Foul Drawn Rate,0.152,0.17,-0.02
+1629498,Jackie Young,2pt Shooting Foul Drawn Rate,0.021,0.007,0.02
+1629498,Jackie Young,Second Chance Points%,0.13,0.121,0.01
+1629498,Jackie Young,Penalty Points%,0.238,0.266,-0.03
+1629498,Jackie Young,Penalty Possessions%,0.223,0.268,-0.04
+1629498,Jackie Young,Avg 2pt Shot Distance,8.208,8.764,-0.56
+1629498,Jackie Young,Avg 3pt Shot Distance,24.704,25.358,-0.65
+1629498,Jackie Young,Penalty Efficiency Excluding Last Minute Take Foul Possessions,117.504,95.023,22.48
+1629498,Jackie Young,DReb%,0.719,0.681,0.04
+1629498,Jackie Young,OReb%,0.265,0.242,0.02
+1629498,Jackie Young,Pts per 100 Possessions,110.54,96.252,14.29
+1629498,Jackie Young,Assist Points per 100 Possessions,64.048,48.851,15.2
+1629498,Jackie Young,FTA per 100 Possessions,24.071,22.37,1.7
+1629498,Jackie Young,TOs per 100 Possessions,16.098,18.38,-2.28
+1629498,Jackie Young,Assists per 100 Possessions,26.792,19.589,7.2
+1629498,Jackie Young,Pts per 100 Possessions - Defense,101.34,109.564,-8.22
+1629498,Jackie Young,Shot Quality - Defense,0.479,0.476,0
+1629498,Jackie Young,3pt FG% - Defense,0.311,0.333,-0.02
+1629498,Jackie Young,2pt FG% - Defense,0.491,0.511,-0.02
+1629498,Jackie Young,eFG% - Defense,0.483,0.508,-0.02
+1629498,Jackie Young,3PAr - Defense,0.342,0.304,0.04
+1629498,Jackie Young,At Rim Shot Frequency - Defense,0.223,0.25,-0.03
+1629498,Jackie Young,At Rim FG% - Defense,0.63,0.689,-0.06
+1629498,Jackie Young,Short Mid Range Shot Frequency - Defense,0.329,0.333,0
+1629498,Jackie Young,Short Mid Range FG% - Defense,0.429,0.396,0.03
+1629498,Jackie Young,Long Mid Range Shot Frequency - Defense,0.106,0.113,-0.01
+1629498,Jackie Young,Long Mid Range FG% - Defense,0.393,0.457,-0.06
+1629498,Jackie Young,Corner 3 Shot Frequency - Defense,0.064,0.046,0.02
+1629498,Jackie Young,Corner 3 FG% - Defense,0.388,0.455,-0.07
+1629498,Jackie Young,Arc 3 Shot Frequency - Defense,0.279,0.258,0.02
+1629498,Jackie Young,Arc 3 FG% - Defense,0.293,0.312,-0.02
+1629498,Jackie Young,Pace,93.755,93.677,0.08
+1629498,Jackie Young,Second Chance Efficiency,126.174,105.495,20.68
+1629498,Jackie Young,Penalty Efficiency,117.869,95.495,22.37
+1629498,Jackie Young,Second Chance Possessions Per 100 Possessions,11.422,11.004,0.42
+1629498,Jackie Young,First Chance Points Per 100 Possessions,96.129,84.643,11.49
+1629498,Jackie Young,Second Chance Points Per 100 Possessions,14.412,11.608,2.8
+1631006,Kierstan Bell,2pt FGM Assist%,0.582,0.555,0.03
+1631006,Kierstan Bell,Non Putback 2pt FGM Assist%,0.633,0.59,0.04
+1631006,Kierstan Bell,3pt FGM Assist%,0.943,0.866,0.08
+1631006,Kierstan Bell,3pt FG%,0.301,0.369,-0.07
+1631006,Kierstan Bell,Non-Heave 3pt FG%,0.302,0.37,-0.07
+1631006,Kierstan Bell,2pt FG%,0.49,0.494,0
+1631006,Kierstan Bell,eFG%,0.474,0.516,-0.04
+1631006,Kierstan Bell,TS%,0.515,0.564,-0.05
+1631006,Kierstan Bell,3PAr,0.399,0.377,0.02
+1631006,Kierstan Bell,% of FG3A Blocked,0.01,0.009,0
+1631006,Kierstan Bell,% of FG2A Blocked,0.053,0.056,0
+1631006,Kierstan Bell,Live Ball TO%,0.556,0.493,0.06
+1631006,Kierstan Bell,DReb% - Missed FTs,0.571,0.906,-0.33
+1631006,Kierstan Bell,OReb% - Missed FTs,0.071,0.143,-0.07
+1631006,Kierstan Bell,DReb% - Missed 2s,0.679,0.679,0
+1631006,Kierstan Bell,OReb% - Missed 2s,0.277,0.269,0.01
+1631006,Kierstan Bell,DReb% - Missed 3s,0.749,0.744,0.01
+1631006,Kierstan Bell,OReb% - Missed 3s,0.251,0.259,-0.01
+1631006,Kierstan Bell,DReb% - Missed FGs,0.708,0.704,0
+1631006,Kierstan Bell,OReb% - Missed FGs,0.265,0.265,0
+1631006,Kierstan Bell,At Rim OReb%,0.333,0.333,0
+1631006,Kierstan Bell,Short Mid-Range OReb%,0.301,0.266,0.04
+1631006,Kierstan Bell,Long Mid-Range OReb%,0.182,0.224,-0.04
+1631006,Kierstan Bell,Arc 3 OReb%,0.227,0.26,-0.03
+1631006,Kierstan Bell,Corner 3 OReb%,0.341,0.255,0.09
+1631006,Kierstan Bell,At Rim DReb%,0.58,0.601,-0.02
+1631006,Kierstan Bell,Short Mid-Range DReb%,0.705,0.692,0.01
+1631006,Kierstan Bell,Long Mid-Range DReb%,0.763,0.733,0.03
+1631006,Kierstan Bell,Arc 3 DReb%,0.75,0.74,0.01
+1631006,Kierstan Bell,Corner 3 DReb%,0.739,0.759,-0.02
+1631006,Kierstan Bell,Blocks Recovered %,0.519,0.537,-0.02
+1631006,Kierstan Bell,Seconds Per Possession - Offense,15.673,15.483,0.19
+1631006,Kierstan Bell,Seconds Per Possession - Defense,15.378,15.14,0.24
+1631006,Kierstan Bell,At Rim Shot Frequency,0.149,0.151,0
+1631006,Kierstan Bell,At Rim FG%,0.611,0.631,-0.02
+1631006,Kierstan Bell,At Rim % Assisted,0.591,0.533,0.06
+1631006,Kierstan Bell,Short Mid Range Shot Frequency,0.318,0.353,-0.04
+1631006,Kierstan Bell,Short Mid Range FG%,0.461,0.453,0.01
+1631006,Kierstan Bell,Short Mid Range % Assisted,0.557,0.553,0
+1631006,Kierstan Bell,Long Mid Range Shot Frequency,0.134,0.12,0.01
+1631006,Kierstan Bell,Long Mid Range FG%,0.423,0.439,-0.02
+1631006,Kierstan Bell,Long Mid % Assisted,0.634,0.602,0.03
+1631006,Kierstan Bell,Corner 3 Shot Frequency,0.086,0.107,-0.02
+1631006,Kierstan Bell,Corner 3 FG%,0.339,0.365,-0.03
+1631006,Kierstan Bell,Corner 3 % Assisted,1,0.977,0.02
+1631006,Kierstan Bell,Arc 3 Shot Frequency,0.314,0.27,0.04
+1631006,Kierstan Bell,Arc 3 FG%,0.291,0.37,-0.08
+1631006,Kierstan Bell,Arc 3 % Assisted,0.924,0.822,0.1
+1631006,Kierstan Bell,At Rim or 3pt Shot Frequency,0.548,0.528,0.02
+1631006,Kierstan Bell,Non-Heave Arc 3 FG%,0.292,0.373,-0.08
+1631006,Kierstan Bell,Shot Quality,0.475,0.472,0
+1631006,Kierstan Bell,Shooting Foul Drawn Rate,0.078,0.115,-0.04
+1631006,Kierstan Bell,3pt Shooting Foul Drawn Rate,0.116,0.168,-0.05
+1631006,Kierstan Bell,2pt Shooting Foul Drawn Rate,0.017,0.017,0
+1631006,Kierstan Bell,Second Chance Points%,0.135,0.126,0.01
+1631006,Kierstan Bell,Penalty Points%,0.229,0.248,-0.02
+1631006,Kierstan Bell,Penalty Possessions%,0.224,0.237,-0.01
+1631006,Kierstan Bell,Avg 2pt Shot Distance,8.496,8.274,0.22
+1631006,Kierstan Bell,Avg 3pt Shot Distance,25.116,24.796,0.32
+1631006,Kierstan Bell,Penalty Efficiency Excluding Last Minute Take Foul Possessions,101.639,114.146,-12.51
+1631006,Kierstan Bell,DReb%,0.704,0.712,-0.01
+1631006,Kierstan Bell,OReb%,0.259,0.259,0
+1631006,Kierstan Bell,Pts per 100 Possessions,99.388,109.507,-10.12
+1631006,Kierstan Bell,Assist Points per 100 Possessions,60.465,60.367,0.1
+1631006,Kierstan Bell,FTA per 100 Possessions,18.849,25.162,-6.31
+1631006,Kierstan Bell,TOs per 100 Possessions,17.625,16.342,1.28
+1631006,Kierstan Bell,Assists per 100 Possessions,25.214,25.01,0.21
+1631006,Kierstan Bell,Pts per 100 Possessions - Defense,96.81,105.337,-8.53
+1631006,Kierstan Bell,Shot Quality - Defense,0.487,0.476,0.01
+1631006,Kierstan Bell,3pt FG% - Defense,0.262,0.334,-0.07
+1631006,Kierstan Bell,2pt FG% - Defense,0.479,0.501,-0.02
+1631006,Kierstan Bell,eFG% - Defense,0.449,0.501,-0.05
+1631006,Kierstan Bell,3PAr - Defense,0.348,0.329,0.02
+1631006,Kierstan Bell,At Rim Shot Frequency - Defense,0.243,0.225,0.02
+1631006,Kierstan Bell,At Rim FG% - Defense,0.609,0.658,-0.05
+1631006,Kierstan Bell,Short Mid Range Shot Frequency - Defense,0.318,0.333,-0.02
+1631006,Kierstan Bell,Short Mid Range FG% - Defense,0.397,0.428,-0.03
+1631006,Kierstan Bell,Long Mid Range Shot Frequency - Defense,0.091,0.113,-0.02
+1631006,Kierstan Bell,Long Mid Range FG% - Defense,0.418,0.407,0.01
+1631006,Kierstan Bell,Corner 3 Shot Frequency - Defense,0.049,0.063,-0.01
+1631006,Kierstan Bell,Corner 3 FG% - Defense,0.306,0.424,-0.12
+1631006,Kierstan Bell,Arc 3 Shot Frequency - Defense,0.299,0.266,0.03
+1631006,Kierstan Bell,Arc 3 FG% - Defense,0.255,0.313,-0.06
+1631006,Kierstan Bell,Pace,92.749,94.048,-1.3
+1631006,Kierstan Bell,Second Chance Efficiency,111.111,124.828,-13.72
+1631006,Kierstan Bell,Penalty Efficiency,101.639,114.654,-13.01
+1631006,Kierstan Bell,Second Chance Possessions Per 100 Possessions,12.118,11.073,1.05
+1631006,Kierstan Bell,First Chance Points Per 100 Possessions,85.924,95.685,-9.76
+1631006,Kierstan Bell,Second Chance Points Per 100 Possessions,13.464,13.822,-0.36
+1631019,NaLyssa Smith,2pt FGM Assist%,0.624,0.522,0.1
+1631019,NaLyssa Smith,Non Putback 2pt FGM Assist%,0.67,0.556,0.11
+1631019,NaLyssa Smith,3pt FGM Assist%,0.898,0.875,0.02
+1631019,NaLyssa Smith,3pt FG%,0.367,0.345,0.02
+1631019,NaLyssa Smith,Non-Heave 3pt FG%,0.368,0.346,0.02
+1631019,NaLyssa Smith,2pt FG%,0.519,0.477,0.04
+1631019,NaLyssa Smith,eFG%,0.53,0.493,0.04
+1631019,NaLyssa Smith,TS%,0.563,0.546,0.02
+1631019,NaLyssa Smith,3PAr,0.339,0.406,-0.07
+1631019,NaLyssa Smith,% of FG3A Blocked,0.006,0.011,-0.01
+1631019,NaLyssa Smith,% of FG2A Blocked,0.047,0.06,-0.01
+1631019,NaLyssa Smith,Live Ball TO%,0.561,0.485,0.08
+1631019,NaLyssa Smith,DReb% - Missed FTs,0.833,0.837,0
+1631019,NaLyssa Smith,OReb% - Missed FTs,0.115,0.136,-0.02
+1631019,NaLyssa Smith,DReb% - Missed 2s,0.667,0.685,-0.02
+1631019,NaLyssa Smith,OReb% - Missed 2s,0.299,0.256,0.04
+1631019,NaLyssa Smith,DReb% - Missed 3s,0.765,0.732,0.03
+1631019,NaLyssa Smith,OReb% - Missed 3s,0.258,0.256,0
+1631019,NaLyssa Smith,DReb% - Missed FGs,0.71,0.703,0.01
+1631019,NaLyssa Smith,OReb% - Missed FGs,0.283,0.256,0.03
+1631019,NaLyssa Smith,At Rim OReb%,0.221,0.412,-0.19
+1631019,NaLyssa Smith,Short Mid-Range OReb%,0.347,0.239,0.11
+1631019,NaLyssa Smith,Long Mid-Range OReb%,0.26,0.184,0.08
+1631019,NaLyssa Smith,Arc 3 OReb%,0.246,0.253,-0.01
+1631019,NaLyssa Smith,Corner 3 OReb%,0.304,0.264,0.04
+1631019,NaLyssa Smith,At Rim DReb%,0.59,0.599,-0.01
+1631019,NaLyssa Smith,Short Mid-Range DReb%,0.686,0.698,-0.01
+1631019,NaLyssa Smith,Long Mid-Range DReb%,0.741,0.738,0
+1631019,NaLyssa Smith,Arc 3 DReb%,0.745,0.742,0
+1631019,NaLyssa Smith,Corner 3 DReb%,0.886,0.69,0.2
+1631019,NaLyssa Smith,Blocks Recovered %,0.478,0.558,-0.08
+1631019,NaLyssa Smith,Seconds Per Possession - Offense,15.924,15.328,0.6
+1631019,NaLyssa Smith,Seconds Per Possession - Defense,15.629,14.978,0.65
+1631019,NaLyssa Smith,At Rim Shot Frequency,0.183,0.133,0.05
+1631019,NaLyssa Smith,At Rim FG%,0.631,0.623,0.01
+1631019,NaLyssa Smith,At Rim % Assisted,0.627,0.488,0.14
+1631019,NaLyssa Smith,Short Mid Range Shot Frequency,0.341,0.346,0
+1631019,NaLyssa Smith,Short Mid Range FG%,0.49,0.437,0.05
+1631019,NaLyssa Smith,Short Mid Range % Assisted,0.591,0.532,0.06
+1631019,NaLyssa Smith,Long Mid Range Shot Frequency,0.137,0.116,0.02
+1631019,NaLyssa Smith,Long Mid Range FG%,0.443,0.429,0.01
+1631019,NaLyssa Smith,Long Mid % Assisted,0.71,0.546,0.16
+1631019,NaLyssa Smith,Corner 3 Shot Frequency,0.078,0.114,-0.04
+1631019,NaLyssa Smith,Corner 3 FG%,0.425,0.336,0.09
+1631019,NaLyssa Smith,Corner 3 % Assisted,1,0.973,0.03
+1631019,NaLyssa Smith,Arc 3 Shot Frequency,0.26,0.291,-0.03
+1631019,NaLyssa Smith,Arc 3 FG%,0.35,0.348,0
+1631019,NaLyssa Smith,Arc 3 % Assisted,0.86,0.838,0.02
+1631019,NaLyssa Smith,At Rim or 3pt Shot Frequency,0.522,0.539,-0.02
+1631019,NaLyssa Smith,Non-Heave Arc 3 FG%,0.351,0.35,0
+1631019,NaLyssa Smith,Shot Quality,0.477,0.47,0.01
+1631019,NaLyssa Smith,Shooting Foul Drawn Rate,0.102,0.109,-0.01
+1631019,NaLyssa Smith,3pt Shooting Foul Drawn Rate,0.142,0.165,-0.02
+1631019,NaLyssa Smith,2pt Shooting Foul Drawn Rate,0.014,0.019,0
+1631019,NaLyssa Smith,Second Chance Points%,0.123,0.131,-0.01
+1631019,NaLyssa Smith,Penalty Points%,0.172,0.283,-0.11
+1631019,NaLyssa Smith,Penalty Possessions%,0.171,0.266,-0.09
+1631019,NaLyssa Smith,Avg 2pt Shot Distance,8.425,8.27,0.16
+1631019,NaLyssa Smith,Avg 3pt Shot Distance,24.798,24.912,-0.11
+1631019,NaLyssa Smith,Penalty Efficiency Excluding Last Minute Take Foul Possessions,111.616,111.167,0.45
+1631019,NaLyssa Smith,DReb%,0.713,0.709,0.01
+1631019,NaLyssa Smith,OReb%,0.275,0.251,0.02
+1631019,NaLyssa Smith,Pts per 100 Possessions,111.063,105.09,5.97
+1631019,NaLyssa Smith,Assist Points per 100 Possessions,67.416,56.823,10.59
+1631019,NaLyssa Smith,FTA per 100 Possessions,22.645,24.177,-1.53
+1631019,NaLyssa Smith,TOs per 100 Possessions,15.557,17.201,-1.64
+1631019,NaLyssa Smith,Assists per 100 Possessions,28.781,23.168,5.61
+1631019,NaLyssa Smith,Pts per 100 Possessions - Defense,101.998,103.979,-1.98
+1631019,NaLyssa Smith,Shot Quality - Defense,0.49,0.473,0.02
+1631019,NaLyssa Smith,3pt FG% - Defense,0.282,0.335,-0.05
+1631019,NaLyssa Smith,2pt FG% - Defense,0.503,0.493,0.01
+1631019,NaLyssa Smith,eFG% - Defense,0.474,0.496,-0.02
+1631019,NaLyssa Smith,3PAr - Defense,0.358,0.321,0.04
+1631019,NaLyssa Smith,At Rim Shot Frequency - Defense,0.26,0.214,0.05
+1631019,NaLyssa Smith,At Rim FG% - Defense,0.623,0.659,-0.04
+1631019,NaLyssa Smith,Short Mid Range Shot Frequency - Defense,0.273,0.359,-0.09
+1631019,NaLyssa Smith,Short Mid Range FG% - Defense,0.399,0.429,-0.03
+1631019,NaLyssa Smith,Long Mid Range Shot Frequency - Defense,0.11,0.107,0
+1631019,NaLyssa Smith,Long Mid Range FG% - Defense,0.478,0.373,0.11
+1631019,NaLyssa Smith,Corner 3 Shot Frequency - Defense,0.056,0.061,0
+1631019,NaLyssa Smith,Corner 3 FG% - Defense,0.397,0.402,0
+1631019,NaLyssa Smith,Arc 3 Shot Frequency - Defense,0.302,0.259,0.04
+1631019,NaLyssa Smith,Arc 3 FG% - Defense,0.26,0.32,-0.06
+1631019,NaLyssa Smith,Pace,91.273,95.033,-3.76
+1631019,NaLyssa Smith,Second Chance Efficiency,114.493,125.1,-10.61
+1631019,NaLyssa Smith,Penalty Efficiency,111.616,111.716,-0.1
+1631019,NaLyssa Smith,Second Chance Possessions Per 100 Possessions,11.927,11.014,0.91
+1631019,NaLyssa Smith,First Chance Points Per 100 Possessions,97.407,91.312,6.1
+1631019,NaLyssa Smith,Second Chance Points Per 100 Possessions,13.656,13.778,-0.12
+1642801,Aaliyah Nye,2pt FGM Assist%,0.524,0.582,-0.06
+1642801,Aaliyah Nye,Non Putback 2pt FGM Assist%,0.555,0.624,-0.07
+1642801,Aaliyah Nye,3pt FGM Assist%,0.878,0.885,-0.01
+1642801,Aaliyah Nye,3pt FG%,0.32,0.373,-0.05
+1642801,Aaliyah Nye,Non-Heave 3pt FG%,0.323,0.373,-0.05
+1642801,Aaliyah Nye,2pt FG%,0.483,0.498,-0.01
+1642801,Aaliyah Nye,eFG%,0.482,0.52,-0.04
+1642801,Aaliyah Nye,TS%,0.536,0.562,-0.03
+1642801,Aaliyah Nye,3PAr,0.413,0.364,0.05
+1642801,Aaliyah Nye,% of FG3A Blocked,0.017,0.004,0.01
+1642801,Aaliyah Nye,% of FG2A Blocked,0.061,0.052,0.01
+1642801,Aaliyah Nye,Live Ball TO%,0.472,0.534,-0.06
+1642801,Aaliyah Nye,DReb% - Missed FTs,0.852,0.825,0.03
+1642801,Aaliyah Nye,OReb% - Missed FTs,0.115,0.136,-0.02
+1642801,Aaliyah Nye,DReb% - Missed 2s,0.656,0.693,-0.04
+1642801,Aaliyah Nye,OReb% - Missed 2s,0.252,0.282,-0.03
+1642801,Aaliyah Nye,DReb% - Missed 3s,0.746,0.745,0
+1642801,Aaliyah Nye,OReb% - Missed 3s,0.261,0.254,0.01
+1642801,Aaliyah Nye,DReb% - Missed FGs,0.691,0.713,-0.02
+1642801,Aaliyah Nye,OReb% - Missed FGs,0.256,0.27,-0.01
+1642801,Aaliyah Nye,At Rim OReb%,0.345,0.327,0.02
+1642801,Aaliyah Nye,Short Mid-Range OReb%,0.245,0.29,-0.04
+1642801,Aaliyah Nye,Long Mid-Range OReb%,0.2,0.22,-0.02
+1642801,Aaliyah Nye,Arc 3 OReb%,0.263,0.242,0.02
+1642801,Aaliyah Nye,Corner 3 OReb%,0.256,0.286,-0.03
+1642801,Aaliyah Nye,At Rim DReb%,0.529,0.631,-0.1
+1642801,Aaliyah Nye,Short Mid-Range DReb%,0.688,0.699,-0.01
+1642801,Aaliyah Nye,Long Mid-Range DReb%,0.712,0.754,-0.04
+1642801,Aaliyah Nye,Arc 3 DReb%,0.749,0.74,0.01
+1642801,Aaliyah Nye,Corner 3 DReb%,0.73,0.768,-0.04
+1642801,Aaliyah Nye,Blocks Recovered %,0.494,0.556,-0.06
+1642801,Aaliyah Nye,Seconds Per Possession - Offense,15.542,15.52,0.02
+1642801,Aaliyah Nye,Seconds Per Possession - Defense,14.928,15.362,-0.43
+1642801,Aaliyah Nye,At Rim Shot Frequency,0.132,0.161,-0.03
+1642801,Aaliyah Nye,At Rim FG%,0.608,0.635,-0.03
+1642801,Aaliyah Nye,At Rim % Assisted,0.511,0.563,-0.05
+1642801,Aaliyah Nye,Short Mid Range Shot Frequency,0.343,0.345,0
+1642801,Aaliyah Nye,Short Mid Range FG%,0.467,0.448,0.02
+1642801,Aaliyah Nye,Short Mid Range % Assisted,0.536,0.564,-0.03
+1642801,Aaliyah Nye,Long Mid Range Shot Frequency,0.112,0.13,-0.02
+1642801,Aaliyah Nye,Long Mid Range FG%,0.384,0.461,-0.08
+1642801,Aaliyah Nye,Long Mid % Assisted,0.5,0.658,-0.16
+1642801,Aaliyah Nye,Corner 3 Shot Frequency,0.113,0.095,0.02
+1642801,Aaliyah Nye,Corner 3 FG%,0.349,0.367,-0.02
+1642801,Aaliyah Nye,Corner 3 % Assisted,0.977,0.985,-0.01
+1642801,Aaliyah Nye,Arc 3 Shot Frequency,0.301,0.269,0.03
+1642801,Aaliyah Nye,Arc 3 FG%,0.31,0.375,-0.06
+1642801,Aaliyah Nye,Arc 3 % Assisted,0.837,0.85,-0.01
+1642801,Aaliyah Nye,At Rim or 3pt Shot Frequency,0.546,0.525,0.02
+1642801,Aaliyah Nye,Non-Heave Arc 3 FG%,0.313,0.376,-0.06
+1642801,Aaliyah Nye,Shot Quality,0.466,0.476,-0.01
+1642801,Aaliyah Nye,Shooting Foul Drawn Rate,0.111,0.104,0.01
+1642801,Aaliyah Nye,3pt Shooting Foul Drawn Rate,0.169,0.149,0.02
+1642801,Aaliyah Nye,2pt Shooting Foul Drawn Rate,0.019,0.016,0
+1642801,Aaliyah Nye,Second Chance Points%,0.123,0.132,-0.01
+1642801,Aaliyah Nye,Penalty Points%,0.278,0.224,0.05
+1642801,Aaliyah Nye,Penalty Possessions%,0.267,0.213,0.05
+1642801,Aaliyah Nye,Avg 2pt Shot Distance,8.312,8.335,-0.02
+1642801,Aaliyah Nye,Avg 3pt Shot Distance,25.076,24.741,0.34
+1642801,Aaliyah Nye,Penalty Efficiency Excluding Last Minute Take Foul Possessions,106.25,115.247,-9
+1642801,Aaliyah Nye,DReb%,0.698,0.717,-0.02
+1642801,Aaliyah Nye,OReb%,0.251,0.264,-0.01
+1642801,Aaliyah Nye,Pts per 100 Possessions,102.636,109.915,-7.28
+1642801,Aaliyah Nye,Assist Points per 100 Possessions,54.367,64.184,-9.82
+1642801,Aaliyah Nye,FTA per 100 Possessions,25.904,22.249,3.66
+1642801,Aaliyah Nye,TOs per 100 Possessions,17.395,16.176,1.22
+1642801,Aaliyah Nye,Assists per 100 Possessions,22.289,26.803,-4.51
+1642801,Aaliyah Nye,Pts per 100 Possessions - Defense,105.399,102.025,3.37
+1642801,Aaliyah Nye,Shot Quality - Defense,0.475,0.481,-0.01
+1642801,Aaliyah Nye,3pt FG% - Defense,0.316,0.316,0
+1642801,Aaliyah Nye,2pt FG% - Defense,0.505,0.49,0.02
+1642801,Aaliyah Nye,eFG% - Defense,0.495,0.485,0.01
+1642801,Aaliyah Nye,3PAr - Defense,0.326,0.338,-0.01
+1642801,Aaliyah Nye,At Rim Shot Frequency - Defense,0.23,0.229,0
+1642801,Aaliyah Nye,At Rim FG% - Defense,0.67,0.63,0.04
+1642801,Aaliyah Nye,Short Mid Range Shot Frequency - Defense,0.335,0.326,0.01
+1642801,Aaliyah Nye,Short Mid Range FG% - Defense,0.412,0.426,-0.01
+1642801,Aaliyah Nye,Long Mid Range Shot Frequency - Defense,0.109,0.107,0
+1642801,Aaliyah Nye,Long Mid Range FG% - Defense,0.444,0.388,0.06
+1642801,Aaliyah Nye,Corner 3 Shot Frequency - Defense,0.048,0.066,-0.02
+1642801,Aaliyah Nye,Corner 3 FG% - Defense,0.327,0.432,-0.1
+1642801,Aaliyah Nye,Arc 3 Shot Frequency - Defense,0.277,0.272,0.01
+1642801,Aaliyah Nye,Arc 3 FG% - Defense,0.314,0.287,0.03
+1642801,Aaliyah Nye,Pace,94.51,93.259,1.25
+1642801,Aaliyah Nye,Second Chance Efficiency,117.606,123.482,-5.88
+1642801,Aaliyah Nye,Penalty Efficiency,106.761,115.59,-8.83
+1642801,Aaliyah Nye,Second Chance Possessions Per 100 Possessions,10.693,11.717,-1.02
+1642801,Aaliyah Nye,First Chance Points Per 100 Possessions,90.06,95.446,-5.39
+1642801,Aaliyah Nye,Second Chance Points Per 100 Possessions,12.575,14.469,-1.89
