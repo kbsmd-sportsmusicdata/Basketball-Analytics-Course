@@ -40,7 +40,7 @@ ESPN_TEMPLATE   = (
 with open(INPUT_JSON) as f:
     slim = json.load(f)
 
-players = [p for p in slim['p'] if p.get('aid')]
+players = [p for p in slim['p'] if p.get('id')]
 print(f"Players to fetch: {len(players)}")
 
 # ── Helpers ──────────────────────────────────────────────────────────────
@@ -76,7 +76,7 @@ results = {}   # aid → bio dict
 errors  = {}
 
 for i, p in enumerate(players):
-    aid  = p['aid']
+    aid  = p['id']
     name = p['n']
 
     for attempt in range(MAX_RETRIES + 1):
